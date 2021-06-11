@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css'
 
-import Primeiro from "./components/Primeiro"
+import Primeiro from "./components/basicos/Primeiro"
 
-import ComParametro from './components/ComParametro'
+import ComParametro from './components/basicos/ComParametro'
 
-import ComFilhos from './components/ComFilhos'
+import ComFilhos from './components/basicos/ComFilhos'
 
 import Card from './components/layout/Card'
 
-import Repeticao from'./components/Repeticao'
-import Condicional from'./components/Condicional'
-import CondicionalComIf from'./components/CondicionalComIf'
+import Repeticao from'./components/basicos/Repeticao'
+import Condicional from'./components/basicos/Condicional'
+import CondicionalComIf from'./components/basicos/CondicionalComIf'
 
 export default props =>
     <div className="App">
@@ -46,20 +46,4 @@ export default props =>
         <Card title="Com Condicional IF ELSE">
            <CondicionalComIf numero={10}></CondicionalComIf>
         </Card>
-
-
-
-
-        {/* <ComFilhos>
-            <ul>
-                <li>Ana</li>
-                <li>Lucas</li>
-                <li>Jhow</li>
-                <li>Dudu</li>
-            </ul>
-        </ComFilhos> */}
-
-        {/* <Primeiro></Primeiro>
-        <ComParametro title="Esse é o teste" subtitulo="Esse é o subtitulo" />
-        <ComParametro title="Segundo title" subtitulo="Esse é o epa" /> */}
     </div>
